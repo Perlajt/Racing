@@ -39,7 +39,7 @@ namespace Racing
 
             if (enemy2.Top >= 500) //2nd enemy spawn location
             {
-                x = r.Next(0, 400);
+                x = r.Next(225, 250);
                 enemy2.Location = new Point(x, 0);
             }
             else
@@ -47,7 +47,7 @@ namespace Racing
 
             if (enemy3.Top >= 500) //3rd enemy spawn location
             {
-                x = r.Next(200, 350);
+                x = r.Next(150, 400);
                 enemy3.Location = new Point(x, 0);
             }
             else
